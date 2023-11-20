@@ -1,4 +1,4 @@
-# Landing Page da Barbearia
+# Projeto de uma Landing Page de uma Barbearia, para o módulo de React, do curso de Front-end da DevMedia.
 Bem-vindo ao repositório da Landing Page da Barbearia! Este projeto foi desenvolvido utilizando as tecnologias CSS, HTML, JavaScript e React para criar uma página web atraente e funcional para uma barbearia fictícia.
 
 ## Descrição do Projeto
