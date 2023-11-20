@@ -1,0 +1,66 @@
+.modo-claro {
+    background-color: #fff;
+    color: #000;
+}
+
+.container-topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+}
+
+button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 0 25px;
+    border: 2px solid #d1c0c0;
+    background-color: #fff;
+    
+}
+
+button p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dark-light {
+    height: 30px;
+    padding-right: 15px;
+}
+
+.banner {
+    background-image: url('/public/assets/banner-barbearia.jpg');
+    border: 1px solid black;
+    height: 25rem;
+    object-fit: contain;
+    display: flex;
+    opacity: 0.8;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.sobre h1, p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.sobre1 {
+    font-weight: bold;
+}
+
+.kelly {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 3rem;
+    color: #d1c0c0;
+}
