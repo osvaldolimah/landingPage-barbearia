@@ -1,66 +1,87 @@
 .modo-claro {
-    background-color: #fff;
-    color: #000;
+background-color: #fff;
+color: #000;
 }
 
-.container-topo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.modo-escuro {
+background-color: #252323;
+color: #fff;
 }
 
-.logo {
-    height: 100px;
+header {
+display: flex;
 }
 
-button {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 10px;
-    border-radius: 30px;
-    padding: 0 25px;
-    border: 2px solid #d1c0c0;
-    background-color: #fff;
-    
+header div {
+height: 10vh;
+padding-right: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
-button p {
-    font-family: 'Poppins', sans-serif;
+.logomarca{
+width: auto;
+height: 100px;
 }
 
-.dark-light {
-    height: 30px;
-    padding-right: 15px;
+header button {
+display: flex;
+align-items: center;
+border: 2px solid #B2987D;
+font-weight: 600;
+border-radius: 25px;
+padding: 10px 15px;
+cursor: pointer;
 }
 
-.banner {
-    background-image: url('/public/assets/banner-barbearia.jpg');
-    border: 1px solid black;
-    height: 25rem;
-    object-fit: contain;
-    display: flex;
-    opacity: 0.8;
+.btn-icone {
+width: 25px;
+height: 25px;
+margin-right: 10px;
 }
 
-.sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 80px;
+.secao-banner {
+height: 341px;
+display: flex;
+background-image: url('/public/assets/banner-barbearia.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-.sobre h1, p{
-    font-family: 'Poppins', sans-serif;
+.secao-texto {
+height: auto;
+display: flex;
+align-items: center;
 }
 
-.sobre1 {
-    font-weight: bold;
+.secao-texto div{
+padding: 100px 20px;
+display: flex;
+flex-direction: column;
+text-align: center;
 }
 
-.kelly {
-    font-family: 'Great Vibes', sans-serif;
-    font-size: 3rem;
-    color: #d1c0c0;
+.secao-texto h1 {
+font-size: 40px;
+margin-bottom: 30px;
+}
+
+.primeiro-paragrafo {
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.segundo-paragrafo {
+line-height: 26px;
+margin-bottom: 60px;
+}
+
+.assinatura {
+font-family: 'Great Vibes', cursive;
+font-weight: 500;
+font-size: 50px;
+color: #B2987D;
 }
